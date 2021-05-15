@@ -1,0 +1,285 @@
+:root {
+    /* my custom colors */
+    --myblue: #19D3DA;
+    --mygray: #373A40;
+    --mywhite: #EEEEEE;
+    --mylightgray: rgba(104, 109, 118, 0.15);
+    /* my fonts - available font weights 300-900 */
+    --worksans: 'Work Sans', sans-serif;
+    --bitter: 'Bitter', serif;
+    /* my font sizes */
+    --header1: 48px;
+    --header2: 36px;
+    --header4: 18px;
+    --paragraph: 18px;
+}
+
+body {
+    margin: auto;
+}
+
+/* -------------------NAV------------------- */
+nav {
+    width: 100%;
+    background-color: var(--mygray);
+    justify-content: end;
+    padding-right: 5%;
+}
+
+nav a {
+    color: var(--myblue);
+    font-family: var(--worksans);
+    font-weight: 500;
+    font-size: var(--header4);
+    text-decoration: none;
+    text-underline-offset: 4px;
+    transition: color 0.4s;
+}
+
+nav a:hover {
+    color: var(--mywhite);
+}
+
+/* -------------------INTRO------------------- */
+.intro {
+    background-color: var(--mygray);
+    padding-top: 125px;
+    padding-bottom: 200px;
+}
+
+.profile-pic {
+    width: 300px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+    background: url(https://via.placeholder.com/300) no-repeat;
+    box-shadow: inset 0px 10px 15px -3px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.my-name {
+    color: var(--myblue);
+    font-family: var(--worksans);
+    font-weight: 500;
+    font-size: var(--header1);
+    padding-bottom: 5px;
+}
+
+.my-title {
+    color: var(--mywhite);
+    font-family: var(--worksans);
+    font-weight: 500;
+    font-size: var(--header4);
+    padding-bottom: 5px;
+}
+
+.short-intro {
+    color: var(--mywhite);
+    font-family: var(--bitter);
+    font-weight: 300;
+    font-size: var(--paragraph);
+    padding-bottom: 5px;
+}
+
+.download {
+    background-color: var(--myblue);
+    color: var(--mygray);
+    font-family: var(--worksans);
+    font-weight: 600;
+    font-size: var(--header4);
+    border: 1px solid var(--myblue);
+    border-radius: 10px;
+    padding: 2px 20px 3px 15px;
+    box-shadow: 0px 10px 8px -5px rgba(0,0,0,0.4);
+}
+
+/* -------------------SKILLS------------------- */
+.skills-1 {
+    background-color: var(--mywhite);
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.my-skills {
+    color: var(--myblue);
+    font-family: var(--worksans);
+    font-weight: 600;
+    font-size: var(--header2);
+}
+
+.skills-2 {
+    background-color: var(--mywhite);
+    padding-bottom: 40px;
+}
+
+.skill-card {
+    width: 300px;
+    height: 500px;
+}
+
+.skill-card h4 {
+    background-color: var(--myblue);
+    color: var(--mygray);
+    font-family: var(--worksans);
+    font-weight: 700;
+    font-size: var(--header4);
+    padding: 15px 0px 15px 15px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0 10px 0 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+.skill-card ul {
+    height: 340px;
+    font-family: var(--bitter);
+    font-weight: 500;
+    font-size: var(--paragraph);
+    line-height: 2;
+    list-style: none;
+    background-color: var(--mylightgray);
+    padding: 15px 0px 15px 40px;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0 10px 0 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+/* -------------------WORK------------------- */
+.work-1 {
+    background-color: var(--mygray);
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.my-work {
+    color: var(--myblue);
+    font-family: var(--worksans);
+    font-weight: 600;
+    font-size: var(--header2);
+}
+
+.wrapper {
+    background-color: var(--mygray);
+}
+
+.work-2 {
+    width: 100%;
+    background-color: var(--mygray);
+    padding-bottom: 70px;
+}
+
+.featured-work h4 {
+    width: 100%;
+    background-color: var(--myblue);
+    color: var(--mygray);
+    font-family: var(--worksans);
+    font-weight: 700;
+    font-size: var(--header4);
+    padding: 15px 0px 15px 15px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+.featured-work {
+    width: 600px;
+    height: 350px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0 10px 75px 10px;
+}
+
+.pettrax-preview {
+    background: url(https://via.placeholder.com/600) no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+.hungry-preview {
+    background: url(https://via.placeholder.com/600) no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+.ecommerce-preview {
+    background: url(https://via.placeholder.com/290) no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+.readme-preview {
+    background: url(https://via.placeholder.com/290) no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+.employee-preview {
+    background: url(https://via.placeholder.com/290) no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+.note-preview {
+    background: url(https://via.placeholder.com/290) no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+.weather-preview {
+    background: url(https://via.placeholder.com/290) no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+.workday-preview {
+    background: url(https://via.placeholder.com/290) no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+.code-preview {
+    background: url(https://via.placeholder.com/290) no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+.password-preview {
+    background: url(https://via.placeholder.com/290) no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+
+.work-card {
+    width: 290px;
+    height: 290px;
+    margin: 12px 10px 75px 10px;
+}
+
+.work-card h4 {
+    width: 100%;
+    background-color: var(--myblue);
+    color: var(--mygray);
+    font-family: var(--worksans);
+    font-weight: 700;
+    font-size: var(--header4);
+    padding: 15px 0px 15px 15px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}

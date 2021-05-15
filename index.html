@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="./style.css" rel="stylesheet">
+    <title>Kelsie's Portfolio</title>
+</head>
+
+<body class="border-0">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand d-flex">
+        <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#"><u>SKILLS</u></a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#"><u>WORK</u></a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#"><u>CONTACT</u></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- intro header with profile pic and download button -->
+    <div class="container-fluid d-flex justify-content-center intro">
+        <div class="row align-items-center justify-content-center">
+            <!-- profile pic -->
+            <div class="col-xxl-3 col-xl-4 col-lg-4 col-sm-12 text-center">
+                <img class="profile-pic" width="300px" height="300px">
+            </div>
+            <!-- name, title, breif intro, download button -->
+            <div class="col-xxl-6 col-xl-5 col-lg-4 col-sm-12 d-block">
+                <h1 class="text-lg-start text-sm-center my-name">Hi, I'm Kelsie</h1>
+                <h5 class="text-lg-start text-sm-center my-title">FULL-STACK WEB DEVELOPER</h5>
+                <p class="short-intro">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et netus et malesuada.
+                </p>
+                <div class="text-lg-start text-sm-center">
+                    <button class="download" type="button"><img src="./download-icon.svg"> Download My Resume</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- skills section -->
+    <div class="container-fluid d-flex justify-content-center skills-1">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="my-skills">My Skills</h2>
+            </div>            
+        </div>
+    </div>
+    <!-- skills cards -->
+    <div class="container-fluid d-flex justify-content-center skills-2">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xl-3 col-lg-6 col-md-6 skill-card">
+                <h4 class="front-end">FRONT-END</h4>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>CSS3</li>
+                    <li>HTML5</li>
+                    <li>JavaScript</li>
+                    <li>JQuery</li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 skill-card">
+                <h4 class="back-end">BACK-END</h4>
+                <ul>
+                    <li>Express</li>
+                    <li>Handlebars</li>
+                    <li>Heroku</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>Node.js</li>
+                    <li>NPM</li>
+                    <li>Sequelize</li>
+                </ul>
+            </div> 
+            <div class="col-xl-3 col-lg-6 col-md-6 skill-card">
+                <h4 class="versioning">VERSIONING</h4>
+                <ul>
+                    <li>Git Bash</li>
+                    <li>GitHub</li>
+                </ul>
+            </div> 
+            <div class="col-xl-3 col-lg-6 col-md-6 skill-card">
+                <h4 class="coming-soon">COMING SOON</h4>
+                <ul>
+                    <li>Webpack</li>
+                    <li>React</li>
+                    <li>Three.js</li>
+                    <li>TypeScript</li>
+                </ul>
+            </div>             
+        </div>
+    </div>
+
+    <!-- works section -->
+    <div class="container-fluid d-flex justify-content-center work-1">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="my-work">My Work</h2>
+            </div>            
+        </div>
+    </div>
+    <!-- work cards -->
+    <div class="container-fluid wrapper">
+        <div class="container justify-content-center work-2">
+            <div class="row d-flex align-items-center justify-content-center text-center">
+                <!-- featured cards -->
+                <div class="col-xxl-8 col-xl-6 col-lg-12 col-sm-12 featured-work">
+                    <div class="pettrax-preview"></div>
+                    
+                    <h4 class="pettrax">PETTRAX</h4>
+                </div>
+                <div class="col-xxl-8 col-xl-6 col-lg-12 col-sm-12 featured-work">
+                    <div class="hungry-preview"></div>
+                    <h4 class="hungry">HUNGRY HUNGRY HIKER</h4>
+                </div> 
+                <div class="w-100"></div>
+                <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 work-card">
+                    <div class="ecommerce-preview"></div>
+                    <h4 class="ecommerce">E-COMMERCE</h4>
+                </div>  
+                <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 work-card">
+                    <div class="readme-preview"></div>
+                    <h4 class="readme">README GENERATOR</h4>
+                </div> 
+                <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 work-card">
+                    <div class="employee-preview"></div>
+                    <h4 class="employee">EMPLOYEE TRACKER</h4>
+                </div> 
+                <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 work-card">
+                    <div class="note-preview"></div>
+                    <h4 class="note">NOTE TAKER</h4>
+                </div> 
+                <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 work-card">
+                    <div class="weather-preview"></div>
+                    <h4 class="weather">WEATHER DASHBOARD</h4>
+                </div> 
+                <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 work-card">
+                    <div class="workday-preview"></div>
+                    <h4 class="workday">WORKDAY SCHEDULER</h4>
+                </div> 
+                <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 work-card">
+                    <div class="code-preview"></div>
+                    <h4 class="code">CODE QUIZ</h4>
+                </div> 
+                <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 work-card">
+                    <div class="password-preview"></div>
+                    <h4 class="password">PASSWORD GENERATOR</h4>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- BOOTSTRAP Scripts Including POPPER -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+
+</html>

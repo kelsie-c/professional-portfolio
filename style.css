@@ -195,6 +195,22 @@ nav a:hover {
     overflow: hidden;
 }
 
+.featured-work a {
+    font-family: var(--bitter);
+    font-size: var(--paragraph);
+    font-weight: 700;
+    color: var(--mygray);
+    text-decoration: none;
+    text-decoration-color: var(--myblue);
+    transition: text-decoration 0.5s;
+}
+
+.featured-work a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--myblue);
+    text-decoration-thickness: 0.2em;
+}
+
 .pettrax-preview {
     background: url(./images/dogs2.jpg) no-repeat;
     background-size: cover;
@@ -214,7 +230,7 @@ nav a:hover {
     font-weight: 500;
     font-size: var(--paragraph);
     border-radius: 0px 0px 10px 10px;
-    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
 }
 
@@ -245,7 +261,7 @@ nav a:hover {
     font-weight: 500;
     font-size: var(--paragraph);
     border-radius: 0px 0px 10px 10px;
-    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
 }
 
@@ -276,7 +292,7 @@ nav a:hover {
     font-weight: 500;
     font-size: var(--paragraph);
     border-radius: 0px 0px 10px 10px;
-    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
 }
 
@@ -307,7 +323,7 @@ nav a:hover {
     font-weight: 500;
     font-size: var(--paragraph);
     border-radius: 0px 0px 10px 10px;
-    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
 }
 
@@ -338,7 +354,7 @@ nav a:hover {
     font-weight: 500;
     font-size: var(--paragraph);
     border-radius: 0px 0px 10px 10px;
-    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
 }
 
@@ -369,7 +385,7 @@ nav a:hover {
     font-weight: 500;
     font-size: var(--paragraph);
     border-radius: 0px 0px 10px 10px;
-    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
 }
 
@@ -400,7 +416,7 @@ nav a:hover {
     font-weight: 500;
     font-size: var(--paragraph);
     border-radius: 0px 0px 10px 10px;
-    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
 }
 
@@ -431,7 +447,7 @@ nav a:hover {
     font-weight: 500;
     font-size: var(--paragraph);
     border-radius: 0px 0px 10px 10px;
-    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
 }
 
@@ -462,7 +478,7 @@ nav a:hover {
     font-weight: 500;
     font-size: var(--paragraph);
     border-radius: 0px 0px 10px 10px;
-    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
 }
 
@@ -493,7 +509,7 @@ nav a:hover {
     font-weight: 500;
     font-size: var(--paragraph);
     border-radius: 0px 0px 10px 10px;
-    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
 }
 
@@ -530,6 +546,22 @@ nav a:hover {
 .work-card:hover h4 {
     transform: translateY(-235px);
     border-radius: 10px 10px 0px 0px;
+}
+
+.work-card a {
+    font-family: var(--bitter);
+    font-size: var(--paragraph);
+    font-weight: 700;
+    color: var(--mygray);
+    text-decoration: none;
+    text-decoration-color: var(--myblue);
+    transition: text-decoration 0.5s;
+}
+
+.work-card a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--myblue);
+    text-decoration-thickness: 0.2em;
 }
 
 /* -------------------CHAT------------------- */
@@ -569,6 +601,11 @@ nav a:hover {
     line-height: 3.5;
     font-family: var(--bitter);
     font-size: var(--paragraph);
+}
+
+.social a {
+    text-decoration: none;
+    color: var(--mygray);
 }
 
 .message-form {

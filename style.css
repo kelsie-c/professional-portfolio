@@ -560,6 +560,10 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
+.reach {
+    margin-left: 30px;
+}
+
 .social {
     list-style: none;
     line-height: 3.5;

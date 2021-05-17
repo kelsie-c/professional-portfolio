@@ -283,3 +283,81 @@ nav a:hover {
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
 }
+
+/* -------------------CHAT------------------- */
+
+.chat-1 {
+    background-color: var(--mywhite);
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.lets-chat {
+    color: var(--myblue);
+    font-family: var(--worksans);
+    font-weight: 600;
+    font-size: var(--header2);
+}
+
+.chat-2 {
+    background-color: var(--mywhite);
+    padding-bottom: 70px;
+}
+
+.chat-2 h4 {
+    color: var(--myblue);
+    font-family: var(--worksans);
+    font-weight: 700;
+    font-size: var(--header4);
+    margin-bottom: 15px;
+}
+
+.social {
+    list-style: none;
+    line-height: 3;
+    font-family: var(--bitter);
+    font-size: var(--paragraph);
+}
+
+.message-form {
+    padding-left: 100px;
+}
+
+textarea {
+    font-family: var(--bitter);
+    font-size: var(--paragraph);
+    border: 1px solid var(--mylightgray);
+    border-radius: 10px 10px 10px 10px;
+    background-color: var(--mylightgray);
+    box-shadow: inset 0px 5px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+}
+
+#name {
+    height: 2.2em;
+    margin-bottom: 10px;
+}
+
+#email {
+    height: 2.2em;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color: var(--mygray);
+    opacity: 1;
+    font-family: var(--bitter);
+    font-size: var(--paragraph);
+}
+
+#submit {
+    color: var(--mygray);
+    font-family: var(--worksans);
+    font-weight: 600;
+    font-size: var(--header4);
+    background-color: var(--myblue);
+    border: 1px solid var(--myblue);
+    border-radius: 10px;
+    padding: 2px 20px 3px 20px;
+    margin-top: 10px;
+    box-shadow: 0px 10px 8px -5px rgba(0,0,0,0.6);
+}

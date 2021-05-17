@@ -21,13 +21,13 @@
         <div class="collapse navbar-collapse justify-content-end">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="navbar-brand" href="#"><u>SKILLS</u></a>
+                    <a class="navbar-brand" href="#skills-1"><u>SKILLS</u></a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand" href="#"><u>WORK</u></a>
+                    <a class="navbar-brand" href="#work-1"><u>WORK</u></a>
                 </li>
                 <li class="nav-item">
-                    <a class="navbar-brand" href="#"><u>CONTACT</u></a>
+                    <a class="navbar-brand" href="#chat"><u>CONTACT</u></a>
                 </li>
             </ul>
         </div>
@@ -39,7 +39,7 @@
             <div class="col-xxl-3 col-xl-4 col-lg-4 col-sm-12 text-center">
                 <img class="profile-pic" width="300px" height="300px">
             </div>
-            <!-- name, title, breif intro, download button -->
+            <!-- name, title, brief intro, download button -->
             <div class="col-xxl-6 col-xl-5 col-lg-4 col-sm-12 d-block">
                 <h1 class="text-lg-start text-sm-center my-name">Hi, I'm Kelsie</h1>
                 <h5 class="text-lg-start text-sm-center my-title">FULL-STACK WEB DEVELOPER</h5>
@@ -53,7 +53,7 @@
         </div>
     </div>
     <!-- skills section -->
-    <div class="container-fluid d-flex justify-content-center skills-1">
+    <div id="skills-1" class="container-fluid d-flex justify-content-center skills-1">
         <div class="row align-items-center justify-content-center">
             <div class="col-12 text-center">
                 <h2 class="my-skills">My Skills</h2>
@@ -106,7 +106,7 @@
     </div>
 
     <!-- works section -->
-    <div class="container-fluid d-flex justify-content-center work-1">
+    <div id="work-1" class="container-fluid d-flex justify-content-center work-1">
         <div class="row align-items-center justify-content-center">
             <div class="col-12 text-center">
                 <h2 class="my-work">My Work</h2>
@@ -118,12 +118,12 @@
         <div class="container justify-content-center work-2">
             <div class="row d-flex align-items-center justify-content-center text-center">
                 <!-- featured cards -->
-                <div class="col-xxl-8 col-xl-6 col-lg-12 col-sm-12 featured-work">
+                <div class="col-xxl-6 col-xl-6 col-lg-12 col-sm-12 featured-work">
                     <div class="pettrax-preview"></div>
                     
                     <h4 class="pettrax">PETTRAX</h4>
                 </div>
-                <div class="col-xxl-8 col-xl-6 col-lg-12 col-sm-12 featured-work">
+                <div class="col-xxl-6 col-xl-6 col-lg-12 col-sm-12 featured-work">
                     <div class="hungry-preview"></div>
                     <h4 class="hungry">HUNGRY HUNGRY HIKER</h4>
                 </div> 
@@ -160,6 +160,43 @@
                     <div class="password-preview"></div>
                     <h4 class="password">PASSWORD GENERATOR</h4>
                 </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- let's chat section -->
+    <div id="chat" class="container-fluid d-flex justify-content-center chat-1">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="lets-chat">Let's Chat!</h2>
+            </div>            
+        </div>
+    </div>
+    <!-- reach out & form -->
+    <div class="container-fluid d-flex justify-content-center chat-2">
+        <div class="row align-items-start justify-content-center">
+            <!-- social links -->
+            <div class="col-xxl-3 col-xl-5 col-lg-5 col-sm-12">
+                <h4>REACH OUT</h4>
+                <ul class="social">
+                    <li>Gmail</li>
+                    <li>LinkedIn</li>
+                    <li>GitHub</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+            <!-- form -->
+            <div class="col-xxl-9 col-xl-5 col-lg-4 col-sm-12 message-form">
+                <h4>DROP ME A LINE</h4>
+                <form>
+                    <textarea id="name" class="w-100" name="name" rows="1" cols="50" placeholder="Name""></textarea>
+                    <br>
+                    <textarea id="email" class="w-100" name="email" rows="1" placeholder="Email"></textarea>
+                    <br>
+                    <textarea id="message" class="w-100" name="message" rows="4" placeholder="Message..."></textarea>
+                    <br>
+                    <input id="submit" class="float-end" type="submit" value="SEND">
+                </form>
             </div>
         </div>
     </div>

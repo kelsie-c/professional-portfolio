@@ -49,9 +49,10 @@ nav a:hover {
 
 .profile-pic {
     width: 300px;
+    height: 300px;
     border-radius: 50%;
     padding-bottom: 20px;
-    background: url(https://via.placeholder.com/300) no-repeat;
+    background: url(./images/headshot1.png) no-repeat;
     box-shadow: inset 0px 10px 15px -3px rgba(0,0,0,0.5);
     overflow: hidden;
 }
@@ -145,7 +146,7 @@ nav a:hover {
 /* -------------------WORK------------------- */
 .work-1 {
     background-color: var(--mygray);
-    padding-top: 75px;
+    padding-top: 50px;
     padding-bottom: 25px;
 }
 
@@ -195,7 +196,9 @@ nav a:hover {
 }
 
 .pettrax-preview {
-    background: url(https://via.placeholder.com/600) no-repeat;
+    background: url(./images/dogs2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 235px;
     border-radius: 10px 10px 0px 0px;
@@ -224,7 +227,9 @@ nav a:hover {
 }
 
 .hungry-preview {
-    background: url(https://via.placeholder.com/600) no-repeat;
+    background: url(./images/nature.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
     width: 100%;
     height: 235px;
     border-radius: 10px 10px 0px 0px;
@@ -253,7 +258,9 @@ nav a:hover {
 }
 
 .ecommerce-preview {
-    background: url(https://via.placeholder.com/290) no-repeat;
+    background: url(./images/ecommerce.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 235px;
     border-radius: 10px 10px 0px 0px;
@@ -282,7 +289,9 @@ nav a:hover {
 }
 
 .readme-preview {
-    background: url(https://via.placeholder.com/290) no-repeat;
+    background: url(./images/readme.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 235px;
     border-radius: 10px 10px 0px 0px;
@@ -311,7 +320,9 @@ nav a:hover {
 }
 
 .employee-preview {
-    background: url(https://via.placeholder.com/290) no-repeat;
+    background: url(./images/employee.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
     width: 100%;
     height: 235px;
     border-radius: 10px 10px 0px 0px;
@@ -340,7 +351,9 @@ nav a:hover {
 }
 
 .note-preview {
-    background: url(https://via.placeholder.com/290) no-repeat;
+    background: url(./images/notes2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 235px;
     border-radius: 10px 10px 0px 0px;
@@ -369,7 +382,9 @@ nav a:hover {
 }
 
 .weather-preview {
-    background: url(https://via.placeholder.com/290) no-repeat;
+    background: url(./images/weather.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 235px;
     border-radius: 10px 10px 0px 0px;
@@ -398,7 +413,9 @@ nav a:hover {
 }
 
 .workday-preview {
-    background: url(https://via.placeholder.com/290) no-repeat;
+    background: url(./images/workday.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 235px;
     border-radius: 10px 10px 0px 0px;
@@ -427,7 +444,9 @@ nav a:hover {
 }
 
 .code-preview {
-    background: url(https://via.placeholder.com/290) no-repeat;
+    background: url(./images/quiz.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 235px;
     border-radius: 10px 10px 0px 0px;
@@ -456,7 +475,9 @@ nav a:hover {
 }
 
 .password-preview {
-    background: url(https://via.placeholder.com/290) no-repeat;
+    background: url(./images/pass.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 235px;
     border-radius: 10px 10px 0px 0px;
@@ -548,6 +569,11 @@ nav a:hover {
 
 .message-form {
     padding-left: 100px;
+}
+
+#gform {
+    font-family: var(--bitter);
+    font-size: var(--paragraph);
 }
 
 textarea {

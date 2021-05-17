@@ -168,12 +168,14 @@ nav a:hover {
 
 .featured-work h4 {
     width: 100%;
+    height: 55px;
     background-color: var(--myblue);
     color: var(--mygray);
     font-family: var(--worksans);
     font-weight: 700;
     font-size: var(--header4);
     padding: 15px 0px 15px 0px;
+    margin-bottom: 0px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s, border-radius 0.5s;
@@ -187,7 +189,7 @@ nav a:hover {
 .featured-work {
     width: 600px;
     height: 290px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
     margin: 0 10px 25px 10px;
     overflow: hidden;
 }
@@ -198,6 +200,27 @@ nav a:hover {
     height: 235px;
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.pet-desc {
+    height: 235px;
+    background-color: var(--mywhite);
+    color: var(--mygray);
+    font-family: var(--bitter);
+    font-weight: 500;
+    font-size: var(--paragraph);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.featured-work:hover .pettrax-preview {
+    transform: translateY(-235px);
+}
+
+.featured-work:hover .pet-desc {
+    transform: translateY(-235px);
 }
 
 .hungry-preview {
@@ -206,6 +229,27 @@ nav a:hover {
     height: 235px;
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.hungry-desc {
+    height: 235px;
+    background-color: var(--mywhite);
+    color: var(--mygray);
+    font-family: var(--bitter);
+    font-weight: 500;
+    font-size: var(--paragraph);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.featured-work:hover .hungry-preview {
+    transform: translateY(-235px);
+}
+
+.featured-work:hover .hungry-desc {
+    transform: translateY(-235px);
 }
 
 .ecommerce-preview {
@@ -214,6 +258,27 @@ nav a:hover {
     height: 235px;
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.ecom-desc {
+    height: 235px;
+    background-color: var(--mywhite);
+    color: var(--mygray);
+    font-family: var(--bitter);
+    font-weight: 500;
+    font-size: var(--paragraph);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.work-card:hover .ecommerce-preview {
+    transform: translateY(-235px);
+}
+
+.work-card:hover .ecom-desc {
+    transform: translateY(-235px);
 }
 
 .readme-preview {
@@ -222,6 +287,27 @@ nav a:hover {
     height: 235px;
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.read-desc {
+    height: 235px;
+    background-color: var(--mywhite);
+    color: var(--mygray);
+    font-family: var(--bitter);
+    font-weight: 500;
+    font-size: var(--paragraph);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.work-card:hover .readme-preview {
+    transform: translateY(-235px);
+}
+
+.work-card:hover .read-desc {
+    transform: translateY(-235px);
 }
 
 .employee-preview {
@@ -230,6 +316,27 @@ nav a:hover {
     height: 235px;
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.emp-desc {
+    height: 235px;
+    background-color: var(--mywhite);
+    color: var(--mygray);
+    font-family: var(--bitter);
+    font-weight: 500;
+    font-size: var(--paragraph);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.work-card:hover .employee-preview {
+    transform: translateY(-235px);
+}
+
+.work-card:hover .emp-desc {
+    transform: translateY(-235px);
 }
 
 .note-preview {
@@ -238,6 +345,27 @@ nav a:hover {
     height: 235px;
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.note-desc {
+    height: 235px;
+    background-color: var(--mywhite);
+    color: var(--mygray);
+    font-family: var(--bitter);
+    font-weight: 500;
+    font-size: var(--paragraph);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.work-card:hover .note-preview {
+    transform: translateY(-235px);
+}
+
+.work-card:hover .note-desc {
+    transform: translateY(-235px);
 }
 
 .weather-preview {
@@ -246,6 +374,27 @@ nav a:hover {
     height: 235px;
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.weather-desc {
+    height: 235px;
+    background-color: var(--mywhite);
+    color: var(--mygray);
+    font-family: var(--bitter);
+    font-weight: 500;
+    font-size: var(--paragraph);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.work-card:hover .weather-preview {
+    transform: translateY(-235px);
+}
+
+.work-card:hover .weather-desc {
+    transform: translateY(-235px);
 }
 
 .workday-preview {
@@ -254,6 +403,27 @@ nav a:hover {
     height: 235px;
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.work-desc {
+    height: 235px;
+    background-color: var(--mywhite);
+    color: var(--mygray);
+    font-family: var(--bitter);
+    font-weight: 500;
+    font-size: var(--paragraph);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.work-card:hover .workday-preview {
+    transform: translateY(-235px);
+}
+
+.work-card:hover .work-desc {
+    transform: translateY(-235px);
 }
 
 .code-preview {
@@ -262,6 +432,27 @@ nav a:hover {
     height: 235px;
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.code-desc {
+    height: 235px;
+    background-color: var(--mywhite);
+    color: var(--mygray);
+    font-family: var(--bitter);
+    font-weight: 500;
+    font-size: var(--paragraph);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.work-card:hover .code-preview {
+    transform: translateY(-235px);
+}
+
+.work-card:hover .code-desc {
+    transform: translateY(-235px);
 }
 
 .password-preview {
@@ -270,8 +461,28 @@ nav a:hover {
     height: 235px;
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
 }
 
+.pass-desc {
+    height: 235px;
+    background-color: var(--mywhite);
+    color: var(--mygray);
+    font-family: var(--bitter);
+    font-weight: 500;
+    font-size: var(--paragraph);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
+    transition: transform 0.5s;
+}
+
+.work-card:hover .password-preview {
+    transform: translateY(-235px);
+}
+
+.work-card:hover .pass-desc {
+    transform: translateY(-235px);
+}
 
 .work-card {
     width: 290px;
@@ -282,12 +493,14 @@ nav a:hover {
 
 .work-card h4 {
     width: 100%;
+    height: 55px;
     background-color: var(--myblue);
     color: var(--mygray);
     font-family: var(--worksans);
     font-weight: 700;
     font-size: var(--header4);
     padding: 15px 0px 15px 15px;
+    margin-bottom: 0px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.3), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s, border-radius 0.5s;

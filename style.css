@@ -235,6 +235,7 @@ nav a:hover {
     font-family: var(--bitter);
     font-weight: 500;
     font-size: var(--paragraph);
+    padding: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
@@ -266,6 +267,7 @@ nav a:hover {
     font-family: var(--bitter);
     font-weight: 500;
     font-size: var(--paragraph);
+    padding: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
@@ -297,6 +299,7 @@ nav a:hover {
     font-family: var(--bitter);
     font-weight: 500;
     font-size: var(--paragraph);
+    padding: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
@@ -328,6 +331,7 @@ nav a:hover {
     font-family: var(--bitter);
     font-weight: 500;
     font-size: var(--paragraph);
+    padding: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
@@ -359,6 +363,7 @@ nav a:hover {
     font-family: var(--bitter);
     font-weight: 500;
     font-size: var(--paragraph);
+    padding: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
@@ -390,6 +395,7 @@ nav a:hover {
     font-family: var(--bitter);
     font-weight: 500;
     font-size: var(--paragraph);
+    padding: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
@@ -421,6 +427,7 @@ nav a:hover {
     font-family: var(--bitter);
     font-weight: 500;
     font-size: var(--paragraph);
+    padding: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
@@ -452,6 +459,7 @@ nav a:hover {
     font-family: var(--bitter);
     font-weight: 500;
     font-size: var(--paragraph);
+    padding: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
@@ -483,6 +491,7 @@ nav a:hover {
     font-family: var(--bitter);
     font-weight: 500;
     font-size: var(--paragraph);
+    padding: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
@@ -514,6 +523,7 @@ nav a:hover {
     font-family: var(--bitter);
     font-weight: 500;
     font-size: var(--paragraph);
+    padding: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: inset 0px 7px 5px -3px rgba(0,0,0,0.5), inset 5px -3px 5px -5px rgba(0,0,0,0.2), inset -5px -3px 5px -5px rgba(0,0,0,0.2);
     transition: transform 0.5s;
@@ -531,6 +541,7 @@ nav a:hover {
     width: 290px;
     height: 290px;
     margin: 12px 10px 25px 10px;
+
     overflow: hidden;
 }
 
